@@ -1,0 +1,72 @@
+/* Custom styles for Todo App */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    transition: all 0.2s;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+.list-group-item.completed {
+    background-color: #f8f9fa;
+}
+
+.text-decoration-line-through {
+    color: #6c757d;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+/* Custom checkmark animation */
+.fa-check-circle {
+    transition: transform 0.2s;
+}
+
+.fa-check-circle:hover,
+.fa-circle:hover {
+    transform: scale(1.2);
+}
+
+/* Form styling */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Footer style */
+.card-footer {
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}

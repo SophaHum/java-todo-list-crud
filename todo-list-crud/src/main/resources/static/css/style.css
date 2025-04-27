@@ -1,0 +1,11 @@
+.text-decoration-line-through {
+    text-decoration: line-through!important;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-close {
+    font-size: 0.8rem;
+}
